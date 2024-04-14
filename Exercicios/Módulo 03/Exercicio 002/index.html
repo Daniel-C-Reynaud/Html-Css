@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url('../Exercicio 001/Imagens/wallpaper002.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            text-align: center;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        table {
+            width: 600px;
+            height: 600px;
+            border-collapse: collapse;
+            border: 2px dotted black;
+            margin: auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            translate: -50% -50%;
+        }
+
+        td {
+            border: 1px solid black;
+            font-weight: bold;
+            text-align: center;
+            vertical-align: auto;
+        }
+
+        tr {
+            background-color: rgba(255, 255, 255, 0.705);
+        }
+        
+        tr.linha {
+            background-color: rgba(182, 182, 182, 0.479);
+        }
+    </style>
+</head>
+<body>
+    <!-- hierauia de tabelas -->
+    <!-- 
+        table = tabela
+        table row = linha da tabela
+        table header = cabeçalho da tabela
+        table data = dado da tabela
+     -->
+    <h1>Tabelas em HTML5</h1>
+    <table>
+        <tr><!-- primaira linha -->
+            <td>A1</td>
+            <td>B1</td>
+            <td>C1</td>
+        </tr>
+        <tr class="linha">
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+        <tr>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
+        </tr>
+        <tr class="linha">
+            <td>A4</td>
+            <td>B4</td>
+            <td>C4</td>
+        </tr>
+    </table>
+</body>
+</html>

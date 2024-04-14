@@ -1,0 +1,39 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: linear-gradient(to right, #ED351C, #F05A47);
+}
+
+img {
+    width: 20px;
+}
+a {
+    color: #F05A47;
+    text-decoration: none;
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+h1 {
+    color: #F05A47;
+    padding-top: 5px;
+    text-align: center;
+}
+h2 {
+    color: #ed341cb2;
+    text-align: center;
+}
+p {
+    color: #F05A47;
+}
+#vd {
+    margin-left: 10px;
+}
+iframe {
+    border-radius: 10px;
+}

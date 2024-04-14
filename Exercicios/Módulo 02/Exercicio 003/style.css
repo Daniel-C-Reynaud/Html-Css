@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* fonte do h1 */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&display=swap');
+
+/* fonte do h2 */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: #5D3364;
+    margin: 0;
+    
+}
+
+header {
+    background-color: #E37EF5;
+    padding: 10px;
+    box-shadow: 0px 0px 20px #000000a3;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header > h1 {
+    color: #8e5598;
+    margin: 0;
+    font-family: Oswald;
+    text-shadow: 1px 1px 3px #5D3364;
+}
+
+main {
+    box-shadow: insert 10px 10px 20px #67076eb6;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20%;
+    background-color: #E37EF5;
+    padding: 20px;
+    width: 60% ;
+    margin-bottom: 30%;
+}
+
+section > h2 {
+    font-family: Roboto;
+    font-size: 2em;
+    color: #8e5598;
+}
+
+main > section > article > p {
+    color: #8e5598;
+    font: normal 1em arial;
+}
+
+footer {
+    display: block;
+}
+
+#holder{
+    display: flex;
+}
+
+footer {
+    background-color: black;
+    padding: 100px;
+}
+
+footer > p{
+    text-align: center;
+    color: white;
+}
+
+#dl{
+    text-align: left;
+    margin: auto;
+    width: 300px;
+    color: white;
+}
+
+#rs {
+    text-align: left;
+    margin: auto;
+    width: 300;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #E37EF5;
+}
+li {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: arial;
+}
+
+li:hover {
+    list-style-type: disc;
+}
+
+hr {
+    width: 95%;
+}

@@ -19,6 +19,7 @@
             text-transform: uppercase;
             font-size: 1.1em;
         }
+        
         thead, tfoot {
             background-color: gray;
             color: white;
@@ -30,8 +31,12 @@
             padding: 5px;
         }
 
-        tr.chosen {
-            background-color: lightgrey;
+        th {
+            height: 40px;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
         }
     </style>
 </head>
@@ -40,17 +45,17 @@
         <caption>AULAS</caption>
         <thead>
             <tr>
-                <th>Segunda</th>
-                <th>Terça</th>
-                <th>Quarta</th>
-                <th>Quinta</th>
-                <th>Sexta</th>
-                <th>Sabado</th>
-                <th>Domingo</th>
+                <th scope="col">Segunda</th>
+                <th scope="col">Terça</th>
+                <th scope="col">Quarta</th>
+                <th scope="col">Quinta</th>
+                <th scope="col">Sexta</th>
+                <th scope="col">Sabado</th>
+                <th scope="col">Domingo</th>
             </tr>
         </thead>
         <tbody>
-            <tr class="chosen">
+            <tr">
                 <td>mat</td>
                 <td>his</td>
                 <td>por</td>
@@ -68,7 +73,7 @@
                 <td>por</td>
                 <td>mat</td>
             </tr>
-            <tr class="chosen">
+            <tr>
                 <td>por</td>
                 <td>edf</td>
                 <td>his</td>
@@ -83,10 +88,10 @@
                 <td>his</td>
                 <td>mat</td>
                 <td>por</td>
-                <td>edf</td>
+                 <td>edf</td>
                 <td>geo</td>
             </tr>
-            <tr class="chosen">
+            <tr>
                 <td>mat</td>
                 <td>por</td>
                 <td>por</td>
@@ -98,13 +103,13 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>8:00</th>
-                <th>8:30</th>
-                <th>9:00</th>
-                <th>10:30</th>
-                <th>11:30</th>
-                <th>11:45</th>
-                <th>12:00</th>
+                <th scope="col" style="border-right: 0px solid white;">8:00</th>
+                <th scope="col" style="border-left: 0px solid white; border-right: 0px solid white;">8:30</th>
+                <th scope="col" style="border-left: 0px solid white; border-right: 0px solid white;">9:00</th>
+                <th scope="col" style="border-left: 0px solid white; border-right: 0px solid white;">10:30</th>
+                <th scope="col" style="border-left: 0px solid white; border-right: 0px solid white;">11:30</th>
+                <th scope="col" style="border-left: 0px solid white; border-right: 0px solid white;">11:45</th>
+                <th scope="col" style="border-left: 0px solid white; border-right: 0px solid white;">12:00</th>
             </tr>
         </tfoot>
     </table>

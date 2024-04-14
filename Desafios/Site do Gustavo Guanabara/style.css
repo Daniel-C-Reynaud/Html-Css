@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@font-face {
+    font-family: 'font main';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body {
+    background-color: aquamarine;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom, rgba(3, 255, 62, 0.699), rgb(0, 87, 12));
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+header > nav {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 0.75em;
+}
+
+header > h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.689);
+}
+
+header > p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav > a {
+    margin-left: 10px;
+}
+
+main {
+    background-color: white;
+    width: 70%;
+    padding: 20px;
+    margin: auto; 
+    box-shadow: 1px 1px 5px black;
+}
+
+main > h1 {
+    font-family: 'font main';
+    color: rgb(0, 87, 12);
+    font-size: 1.50em
+}
+
+img {
+    width: 100%;
+}
+
+section > h2 {
+    font-family: 'font main';
+    background-color: rgba(0, 243, 65, 0.796);
+    color: rgb(0, 87, 12);
+    font-size: 1em;
+}
+
+footer {
+    background-color: rgb(200, 253, 235);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer > div#ul{
+    display: flex;
+    color: black;
+    padding-bottom: 75px;
+}
+
+footer > div#title{
+    color: white;
+    padding: 5px;
+    background-color: rgb(25, 155, 79);
+}
+
+ul{
+    list-style-type: none;
+    margin: auto;
+}
+
+h3 {
+    margin: 0;
+}
+
+#title {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font: bold 1em arial, Helvetica, sans-serif;
+}
+
+footer > p {
+    margin: 20px;
+}
+
+main > p, section > p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2em;
+}
+
+a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+nav > a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: solid;
+    color: brown;
+}
+
+nav > a:hover {
+    text-decoration: solid;
+    color: rgb(0, 229, 255);
+}
